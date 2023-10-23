@@ -1,0 +1,18 @@
+@model CategoryModel
+@{
+    ViewData["Title"] = "Cadastrar nova categoria";
+}
+<a class="btn btn-group btn-secondary btn-toBack" role="button" asp-controller="Category" asp-action="Index">Voltar</a>
+<h1 class="h1-category">@ViewData["Title"]</h1>
+<div class="main-category">
+    <div class="register-category">
+        <div class="head-group">
+                <img src="~/image/pizzaIcon.png" alt="Icone do site(pizza)">
+                <h1>Pizzaria Ferrari</h1>
+        </div>
+        <form class="input-group-category" asp-controller="Category" asp-action="Add">
+            <input type="text" asp-for="Description" placeholder="Digite o nome da categoria">
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+</div>

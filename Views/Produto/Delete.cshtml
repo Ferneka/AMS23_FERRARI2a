@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Apagar produto";
+}
+<h1 class="h1-produto">@ViewData["Title"]</h1>
+<div class="main-produto">
+    <div class="register-produto">
+        <div class="head-group">
+                <img src="~/image/pizzaIcon.png" alt="Icone do site(pizza)">
+                <h1>Pizzaria Ferrari</h1>
+        </div>
+        <div class="confirmation-group">
+            <div class="question-group">
+                <p>Deseja excluir o produto (Pizza de Frango)?</p>
+            </div>
+           <div class="buttons-group">
+                <a class="btn btn-danger" role="button" asp-controller="Produto" asp-action="Delete">Sim</a>
+                <a class="btn btn-secondary" role="button" asp-controller="Produto" asp-action="Index">Voltar</a>
+           </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+html {
+  font-size: 14px;
+}
+:root{
+  --main-color: #e84c3d;
+  --yellow-color:#eae2b7;
+  --btn-color: #f15a25;
+  --btn-color-hover: rgba(183, 181, 181, 0.975);
+  --black-color:#000;
+  --white-color: #fff;
+  --input-hover: rgb(253, 248, 248);
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+.group{
+  display: flex;
+  gap: 8px;
+}
+.group img{
+  height: 40px;
+  width: 40px;
+}
+.group a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+}
+footer #name{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  position: relative;
+  left: 40px;
+}
+footer #email{
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 1px;
+  left: 80px;
+}
+footer{
+  display: flex;
+  gap: 10px;
+  height: 60px;
+}
+body {
+  margin-bottom: 60px;
+  background-color: #edede9;
+}
+nav{
+  background-color:#98982ba2 ;
+}
+
+.carousel-item img{
+  width: 1300px;
+  height: 700px;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.main a{
+  position: relative;
+  top: 10px;
+  height: 42px;
+}
+/* Made with love by Mutiullah Samim*/
+
+.btn-group{
+  height: 42px;
+  position: relative;
+  top: 3px;
+}
+.head-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.head-group img{
+  height: 100px;
+  width: 100px;
+}
+.head-group h1{
+  font-family: 'Fuggles', cursive;
+  color: var(--main-color);
+  font-size: 80px
+}
+.h1-category{
+  color: rgb(136, 134, 134);
+  font-size: 25px;
+  position: relative;
+  left:256px;
+}
+.main-category{
+  background-color: var(--yellow-color);
+  width: 600px;
+  height:400px;
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.btn-toBack:hover{
+  background-color: rgb(168, 167, 167);
+  border: none;
+  outline: none;
+}
+
+.register-category{
+  padding-top: 20px;
+}
+.input-group-category{
+  position: relative;
+  top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.input-group-category input, .input-group-category button{
+  border: none;
+}
+.input-group-category input{
+  height: 45px;
+  width: 400px;
+  position: relative;
+  left: 95px;
+  border-radius: 4px;
+  outline: none;
+}
+.input-group-category input::placeholder{
+  padding-left: 20px;
+}
+.input-group-category input:hover{
+  background-color: var(--input-hover);
+}
+.input-group-category button{
+  height: 50px;
+  width: 200px;
+  position: relative;
+  left: 200px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border-radius: 8px;
+}
+.input-group-category button:hover{
+  background-color: var(--yellow-color);
+  color: var(--black-color);
+  border: 1px solid var(--black-color);
+}
+.confirmation-group{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 22px;
+  font: normal 20pt arial;
+  color: rgb(136, 134, 134);
+}
+
+.h1-produto{
+  color: rgb(136, 134, 134);
+  font-size: 25px;
+  position: relative;
+  left:256px;
+}
+.main-produto{
+  background-color: var(--yellow-color);
+  width: 600px;
+  height:400px;
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.register-produto{
+  padding-top: 20px;
+}
+.input-group-produto{
+  position: relative;
+  top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.input-group-produto input, .input-group-produto button{
+  border: none;
+}
+.input-group-produto input{
+  height: 45px;
+  width: 400px;
+  position: relative;
+  left: 95px;
+  border-radius: 4px;
+  outline: none;
+}
+.input-group-produto input::placeholder{
+  padding-left: 20px;
+}
+.input-group-produto input:hover{
+  background-color: var(--input-hover);
+}
+.input-group-produto button{
+  height: 50px;
+  width: 200px;
+  position: relative;
+  left: 200px;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  border-radius: 8px;
+}
+.input-group-produto button:hover{
+  background-color: var(--yellow-color);
+  color: var(--black-color);
+  border: 1px solid var(--black-color);
+}

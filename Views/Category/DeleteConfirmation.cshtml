@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Apagar categoria";
+}
+<h1 class="h1-category">@ViewData["Title"]</h1>
+<div class="main-category">
+    <div class="register-category">
+        <div class="head-group">
+                <img src="~/image/pizzaIcon.png" alt="Icone do site(pizza)">
+                <h1>Pizzaria Ferrari</h1>
+        </div>
+        <div class="confirmation-group">
+            <div class="question-group">
+                <p>Deseja excluir a categoria (Bebida)?</p>
+            </div>
+           <div class="buttons-group">
+                <a class="btn btn-danger" role="button" asp-controller="Category" asp-action="Delete">Sim</a>
+                <a class="btn btn-secondary" role="button" asp-controller="Category" asp-action="Index">Voltar</a>
+           </div>
+        </div>
+    </div>
+</div>

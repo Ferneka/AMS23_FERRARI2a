@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AMS23_Carousel.props" />
+</Project>

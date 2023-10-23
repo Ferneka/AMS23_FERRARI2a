@@ -1,0 +1,19 @@
+@model ProdutoModel
+@{
+    ViewData["Title"] = "Cadastrar novo produto";
+}
+<a class="btn btn-group btn-secondary btn-toBack" role="button" asp-controller="Produto" asp-action="Index">Voltar</a>
+<h1 class="h1-produto">@ViewData["Title"]</h1>
+<div class="main-produto">
+    <div class="register-produto">
+        <div class="head-group">
+                <img src="~/image/pizzaIcon.png" alt="Icone do site(pizza)">
+                <h1>Pizzaria Ferrari</h1>
+        </div>
+        <form class="input-group-produto" asp-controller="Produto" asp-action="Add">
+            <input type="text" asp-for="Description" placeholder="Digite o nome do produto">
+            <input type="text" asp-for="Value" placeholder="Digite o valor do produto">
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+</div>

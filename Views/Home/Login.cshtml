@@ -1,0 +1,22 @@
+@model LoginModel
+<head>
+	<link rel="stylesheet" href="~/css/custom.css">
+</head>
+<body>
+	<main>
+			<div class="head-group">
+				<img src="~/image/pizzaIcon.png" alt="Icone do site(pizza)">
+				<h1>Pizzaria Ferrari</h1>
+			</div>
+	
+			<form asp-controller="Home" asp-action="Login">
+  				<div class="form-group">
+    				<input type="email" class="form-control" placeholder="Enter email" asp-for="Email">
+  				</div>
+				<div class="form-group">
+    				<input type="password" class="form-control" placeholder="Enter Password" asp-for="Password">
+  				</div>
+  				<button type="submit" class="btn">Login</button>	
+			</form>
+	</main>
+</body>

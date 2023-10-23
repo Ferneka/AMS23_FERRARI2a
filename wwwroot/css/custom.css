@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+:root{
+    --main-color: #e84c3d;
+    --yellow-color:#eae2b7;
+    --btn-color: #f15a25;
+    --btn-color-hover: rgba(183, 181, 181, 0.975);
+    --black-color:#000;
+    --white-color: #fff;
+    --input-hover: rgb(253, 248, 248);
+}
+body{
+    background-color:var(--main-color);
+}
+main{
+    position: relative;
+    top: 50px; 
+    width: 600px;
+    height:400px;
+    background-color: var(--yellow-color);
+    margin: auto;
+    border-radius: 8px;
+}
+
+
+.form-group input{
+    height: 50px;
+    width: 400px;
+    outline: none;
+    border-radius: 8px;
+}
+.form-group input:hover{
+    background-color: var(--input-hover);
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    background-color:var(--yellow-color);
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+footer{
+    height: 60px;
+}
