@@ -1,3 +1,4 @@
+@model List<CategoryModel>
 @{
     ViewData["Title"] = "Categorias";
 }
@@ -15,13 +16,18 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Bebida</td>
-      <td>
-        <a class="btn btn-primary" asp-controller="Category" asp-action="ToEdit">Editar</a>
-        <a class="btn btn-danger" asp-controller="Category" asp-action="DeleteConfirmation">Apagar</a>
-      </td>
-    </tr>
+     @if(Model != null & Model.Any()){
+      foreach(CategoryModel category in Model){
+        <tr>
+          <th scope="row">@category.Id</th>
+          <td>@category.Description</td>
+          <td>
+            <a class="btn btn-primary" asp-controller="Category" asp-action="ToEdit" asp-route-id="@category.Id">Editar</a>
+            <a class="btn btn-danger" asp-controller="Category" asp-action="DeleteConfirmation" asp-route-id="@category.Id">Apagar</a>
+          </td>
+        </tr>
+      }
+     }
+
   </tbody>
 </table>

@@ -1,19 +1,24 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using AMS23_Carousel.Models;
+using AMS23_Carousel.Repository.Category;
 
 namespace AMS23_Carousel.Controllers;
 
 public class CategoryController : Controller
 {
-
+    private readonly ICategoryRepository _categoryRepository;
+    public CategoryController(ICategoryRepository categoryRepository){
+        _categoryRepository = categoryRepository;
+    }
     public IActionResult Index()
     {
-        return View();
+        var categorys = _categoryRepository.BuscarTodos();
+        return View(categorys);
     }
-    public IActionResult Add(CategoryModel category)
+    public IActionResult Add()
     {
-        var request = category;
+        // var request = category;
         return View();
     }
     public IActionResult ToEdit(){
@@ -23,9 +28,10 @@ public class CategoryController : Controller
         return View();
     }
     [HttpPost]
-    // public IActionResult Add(CategoryModel category){
-    //     return RedirectToAction("Index");
-    // }   
+    public IActionResult Add(CategoryModel category){
+        _categoryRepository.Add(category);
+        return RedirectToAction("Index");
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

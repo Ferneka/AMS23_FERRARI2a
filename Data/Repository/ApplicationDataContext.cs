@@ -15,5 +15,6 @@ namespace AMS23_Carousel.Data.Repository
             
         }
         public DbSet<CategoryModel> Category {get; set;}
+        public DbSet<ProdutoModel> Product {get;set;}
     }
 }
