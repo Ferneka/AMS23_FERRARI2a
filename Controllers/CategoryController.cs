@@ -13,7 +13,7 @@ public class CategoryController : Controller
     }
     public IActionResult Index()
     {
-        var categorys = _categoryRepository.BuscarTodos();
+        var categorys = _categoryRepository.GetAll();
         return View(categorys);
     }
     public IActionResult Add()
