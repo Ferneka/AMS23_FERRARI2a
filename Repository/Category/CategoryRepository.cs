@@ -20,7 +20,7 @@ namespace AMS23_Carousel.Repository.Category
             return category;
         }
 
-        public List<CategoryModel> BuscarTodos()
+        public List<CategoryModel> GetAll()
         {
             return _bancoContext.Category.ToList();
         }

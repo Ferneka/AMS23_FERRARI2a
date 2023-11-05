@@ -9,6 +9,6 @@ namespace AMS23_Carousel.Repository.Category
     public interface ICategoryRepository
     {
         CategoryModel Add(CategoryModel category);
-        List<CategoryModel> BuscarTodos();
+        List<CategoryModel> GetAll();
     }
 }
