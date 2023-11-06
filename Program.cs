@@ -1,6 +1,9 @@
 using AMS23_Carousel.Data.Repository;
-using AMS23_Carousel.Repository.Category;
+using AMS23_Carousel.Models.Category;
+using AMS23_Carousel.Models.Interfaces;
+
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,7 +12,7 @@ builder.Services.AddDbContext<ApplicationDataContext>(
     option => option.UseSqlite(
         builder.Configuration.GetConnectionString("DefaultContext"))
 );
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

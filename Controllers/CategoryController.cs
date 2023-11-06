@@ -1,7 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using AMS23_Carousel.Models;
-using AMS23_Carousel.Repository.Category;
+using AMS23_Carousel.Models.Category;
+// using AMS23_Carousel.Repository.Category;
 
 namespace AMS23_Carousel.Controllers;
 
@@ -13,8 +14,8 @@ public class CategoryController : Controller
     }
     public IActionResult Index()
     {
-        var categorys = _categoryRepository.GetAll();
-        return View(categorys);
+        
+        return View();
     }
     public IActionResult Add()
     {
@@ -30,9 +31,9 @@ public class CategoryController : Controller
     [HttpPost]
     public IActionResult Add(CategoryModel category){
         _categoryRepository.Add(category);
+        _categoryRepository.SaveChangesAsync();
         return RedirectToAction("Index");
     }
-
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

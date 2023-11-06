@@ -18,12 +18,15 @@ namespace AMS23_Carousel.Data.Repository
         public void Add(TEntity entity)
         {
             _entity.Add(entity);
-
+        }
+        public async Task<IEnumerable<TEntity>> GetAll()
+        {
+            return await _entity.ToListAsync();
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public  async Task<bool> SaveChangesAsync()
         {
-            throw new NotImplementedException();
+           return await _applicationDataContext.SaveChangesAsync() > 0;
         }
     }
 }
