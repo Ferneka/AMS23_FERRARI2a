@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\AMS23_Carousel.csproj": {}
+    "D:\\AMS23_Carousel\\AMS23_Carousel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\AMS23_Carousel.csproj": {
+    "D:\\AMS23_Carousel\\AMS23_Carousel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\AMS23_Carousel.csproj",
+        "projectUniqueName": "D:\\AMS23_Carousel\\AMS23_Carousel.csproj",
         "projectName": "AMS23_Carousel",
-        "projectPath": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\AMS23_Carousel.csproj",
+        "projectPath": "D:\\AMS23_Carousel\\AMS23_Carousel.csproj",
         "packagesPath": "C:\\Users\\Marciana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\obj\\",
+        "outputPath": "D:\\AMS23_Carousel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marciana\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,3 +1,4 @@
+@model IEnumerable<CategoryModel>
 @{
     ViewData["Title"] = "Categorias";
 }
@@ -8,14 +9,14 @@
 </div>
 <table class="table">
   <thead>
-    <tr>
-      <th scope="col">Id</th>
-      <th scope="col">Nome</th>
+    @foreach(var category in Model){
+      <tr>
+      <th scope="col">@category.Id</th>
+      <th scope="col">@category.Description</th>
       <th scope="col"></th>
     </tr>
+    }
   </thead>
   <tbody>
-  
-
   </tbody>
 </table>

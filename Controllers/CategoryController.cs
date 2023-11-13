@@ -12,10 +12,10 @@ public class CategoryController : Controller
     public CategoryController(ICategoryRepository categoryRepository){
         _categoryRepository = categoryRepository;
     }
-    public IActionResult Index()
+    public async Task<IActionResult> Index()
     {
-        
-        return View();
+        IEnumerable<CategoryModel> categorias  = await _categoryRepository.GetAll();
+        return View(categorias);
     }
     public IActionResult Add()
     {

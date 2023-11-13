@@ -8,7 +8,7 @@ namespace AMS23_Carousel.Models.Category
 {
     public class CategoryRepository : RepositoryBase<CategoryModel, Guid>, ICategoryRepository
     {
-        public CategoryRepository(ApplicationDataContext  applicationDataContext) : base(applicationDataContext){
+        public CategoryRepository(ApplicationDataContext applicationDataContext) : base(applicationDataContext){
             
         }
     }

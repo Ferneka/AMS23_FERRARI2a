@@ -2,10 +2,10 @@ using AMS23_Carousel.Data.Repository;
 using AMS23_Carousel.Models.Category;
 using AMS23_Carousel.Models.Interfaces;
 using System.Collections.Generic;
-
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using AMS23_Carousel.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
