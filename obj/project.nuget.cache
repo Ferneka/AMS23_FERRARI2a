@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KuXDk6Px0oJambeDG0IkPFTcgvvgK+nCnSBwwuBYjhDCB7MR/W9N/r5DUldL712vPmwiIsinQc+xxnywIDQPjA==",
+  "dgSpecHash": "dnSYLqfJ1z1sHuHquqem1tMZyKc3J/qHU3Lu98T1FTX8vIQWMbQo2bzmZm3O2Tfyt6afUdfkoDh8Xj5B/mxhuw==",
   "success": true,
-  "projectFilePath": "D:\\AMS23_Carousel\\AMS23_Carousel.csproj",
+  "projectFilePath": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\AMS23_Carousel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marciana\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Marciana\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.12\\microsoft.data.sqlite.core.7.0.12.nupkg.sha512",

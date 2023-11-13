@@ -9,77 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AMS23_Carousel
 build_property.RootNamespace = AMS23_Carousel
-build_property.ProjectDir = D:\AMS23_Carousel\
+build_property.ProjectDir = C:\Users\Marciana\Desktop\AMS23_Carousel\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\AMS23_Carousel
+build_property.MSBuildProjectDirectory = C:\Users\Marciana\Desktop\AMS23_Carousel
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/AMS23_Carousel/Views/Category/Add.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Category/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Category/DeleteConfirmation.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Category/DeleteConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Category/Index.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Category/ToEdit.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Category/ToEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVG9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Home/Index.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Home/Login.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Home/Privacy.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Produto/Add.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Produto/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Produto/Delete.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Produto/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Produto/Index.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Produto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Produto/ToEdit.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Produto/ToEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xUb0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Shared/Error.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Shared/_Carousel.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Shared/_Carousel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJvdXNlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/_ViewImports.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/_ViewStart.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/AMS23_Carousel/Views/Shared/_Layout.cshtml]
+[C:/Users/Marciana/Desktop/AMS23_Carousel/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zz5wkhrv92

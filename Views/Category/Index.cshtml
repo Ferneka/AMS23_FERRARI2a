@@ -9,14 +9,22 @@
 </div>
 <table class="table">
   <thead>
-    @foreach(var category in Model){
-      <tr>
-      <th scope="col">@category.Id</th>
-      <th scope="col">@category.Description</th>
-      <th scope="col"></th>
-    </tr>
-    }
+   <tr>
+    <th scope="col">Id</th>
+    <th scope="col">Nome</th>
+    <th scope="col"></th>
+   </tr>
   </thead>
   <tbody>
+     @foreach(var category in Model){
+      <tr>
+      <td>@category.Id</td>
+      <td>@category.Description</td>
+      <td>
+        <a class="btn btn-primary" role="button" asp-controller="Category" asp-action="ToEdit">Editar</a>
+        <a class="btn btn-danger" role="button" asp-controller="Category" asp-action="DeleteConfirmation">Apagar</a>
+      </td>
+    </tr>
+    }
   </tbody>
 </table>
