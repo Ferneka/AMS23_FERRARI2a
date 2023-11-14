@@ -28,5 +28,21 @@ namespace AMS23_Carousel.Data.Repository
         {
            return await _applicationDataContext.SaveChangesAsync() > 0;
         }
+
+        public TEntity GetById(Guid id)
+        {
+            return _entity.Find(id);
+        }
+
+        public TEntity ToEdit(TEntity entity)
+        {
+            _entity.Update(entity);
+            return entity;   
+        }
+
+        public void Delete(TEntity entity)
+        {
+           _entity.Remove(entity);
+        }
     }
 }

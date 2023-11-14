@@ -1,3 +1,4 @@
+@model CategoryModel
 @{
     ViewData["Title"] = "Apagar categoria";
 }
@@ -10,10 +11,10 @@
         </div>
         <div class="confirmation-group">
             <div class="question-group">
-                <p>Deseja excluir a categoria (Bebida)?</p>
+                <p>Deseja excluir a categoria (@Model.Description)?</p>
             </div>
            <div class="buttons-group">
-                <a class="btn btn-danger" role="button" asp-controller="Category" asp-action="Delete">Sim</a>
+                <a class="btn btn-danger" role="button" asp-controller="Category" asp-action="Delete" asp-route-id="@Model.Id">Sim</a>
                 <a class="btn btn-secondary" role="button" asp-controller="Category" asp-action="Index">Voltar</a>
            </div>
         </div>

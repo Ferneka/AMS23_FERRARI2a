@@ -14,23 +14,36 @@ public class CategoryController : Controller
     }
     public async Task<IActionResult> Index()
     {
-        IEnumerable<CategoryModel> categorias  = await _categoryRepository.GetAll();
-        return View(categorias);
+        IEnumerable<CategoryModel> categories  = await _categoryRepository.GetAll();
+        return View(categories);
     }
     public IActionResult Add()
     {
         // var request = category;
         return View();
     }
-    public IActionResult ToEdit(){
-        return View();
+    public IActionResult ToEdit(Guid id){
+        CategoryModel category =  _categoryRepository.GetById(id);
+        return View(category);
     }
-    public IActionResult DeleteConfirmation(){
-        return View();
+    public IActionResult DeleteConfirmation(Guid id){
+        CategoryModel category = _categoryRepository.GetById(id);
+        return View(category);
+    }
+    public IActionResult Delete(CategoryModel category){
+        _categoryRepository.Delete(category);
+        _categoryRepository.SaveChangesAsync();
+        return RedirectToAction("Index");
     }
     [HttpPost]
     public IActionResult Add(CategoryModel category){
         _categoryRepository.Add(category);
+        _categoryRepository.SaveChangesAsync();
+        return RedirectToAction("Index");
+    }
+    [HttpPost]
+    public IActionResult Alter(CategoryModel category){
+        _categoryRepository.ToEdit(category);
         _categoryRepository.SaveChangesAsync();
         return RedirectToAction("Index");
     }
