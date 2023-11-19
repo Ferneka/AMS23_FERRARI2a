@@ -9,7 +9,7 @@ namespace AMS23_Carousel.Models.Interfaces
     {
         void Add(TEntity entity);
         TEntity GetById(Guid id);
-        TEntity ToEdit(TEntity entity);
+        void ToEdit(TEntity entity);
         void Delete(TEntity entity);
         
         Task<IEnumerable<TEntity>> GetAll(); // lista em memória

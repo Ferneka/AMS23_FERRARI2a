@@ -34,10 +34,9 @@ namespace AMS23_Carousel.Data.Repository
             return _entity.Find(id);
         }
 
-        public TEntity ToEdit(TEntity entity)
+        public void ToEdit(TEntity entity)
         {
             _entity.Update(entity);
-            return entity;   
         }
 
         public void Delete(TEntity entity)

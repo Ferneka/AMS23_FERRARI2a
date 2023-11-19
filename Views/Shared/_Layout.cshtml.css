@@ -6,6 +6,18 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
+.main-part-site{
+ display: flex;
+}
+.main-part-site h1{
+  font-size: 20px;
+}
+.img-main-site img{
+ height: 20px;
+ width: 20px;
+}
+
+
 
 a {
   color: #0077cc;
@@ -23,16 +35,6 @@ a {
   border-color: #1861ac;
 } */
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
 
 button.accept-policy {
   font-size: 1rem;
@@ -46,4 +48,9 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
   height: 60px;
+  display: flex;
+}
+.redesSociais{
+  display: flex;
+  
 }

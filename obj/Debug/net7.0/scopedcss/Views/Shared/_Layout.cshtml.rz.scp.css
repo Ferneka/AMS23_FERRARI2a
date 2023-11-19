@@ -6,6 +6,18 @@ a.navbar-brand[b-zz5wkhrv92] {
   text-align: center;
   word-break: break-all;
 }
+.main-part-site[b-zz5wkhrv92]{
+ display: flex;
+}
+.main-part-site h1[b-zz5wkhrv92]{
+  font-size: 20px;
+}
+.img-main-site img[b-zz5wkhrv92]{
+ height: 20px;
+ width: 20px;
+}
+
+
 
 a[b-zz5wkhrv92] {
   color: #0077cc;
@@ -23,16 +35,6 @@ a[b-zz5wkhrv92] {
   border-color: #1861ac;
 } */
 
-.border-top[b-zz5wkhrv92] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-zz5wkhrv92] {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow[b-zz5wkhrv92] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
 
 button.accept-policy[b-zz5wkhrv92] {
   font-size: 1rem;
@@ -46,4 +48,9 @@ button.accept-policy[b-zz5wkhrv92] {
   white-space: nowrap;
   line-height: 60px;
   height: 60px;
+  display: flex;
+}
+.redesSociais[b-zz5wkhrv92]{
+  display: flex;
+  
 }

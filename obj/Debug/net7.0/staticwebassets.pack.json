@@ -17,16 +17,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\pizza1.jpg",
-      "PackagePath": "staticwebassets\\image\\pizza1.jpg"
+      "Id": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\instagram.png",
+      "PackagePath": "staticwebassets\\image\\instagram.png"
     },
     {
-      "Id": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\pizza2.jpg",
-      "PackagePath": "staticwebassets\\image\\pizza2.jpg"
+      "Id": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\p1PizzariaFerrari.png",
+      "PackagePath": "staticwebassets\\image\\p1PizzariaFerrari.png"
     },
     {
-      "Id": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\pizza3.jpg",
-      "PackagePath": "staticwebassets\\image\\pizza3.jpg"
+      "Id": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\p2PizzariaFerrari.png",
+      "PackagePath": "staticwebassets\\image\\p2PizzariaFerrari.png"
+    },
+    {
+      "Id": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\p3PizzariaFerrari.png",
+      "PackagePath": "staticwebassets\\image\\p3PizzariaFerrari.png"
+    },
+    {
+      "Id": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\pizza.png",
+      "PackagePath": "staticwebassets\\image\\pizza.png"
     },
     {
       "Id": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\pizzaIcon.png",

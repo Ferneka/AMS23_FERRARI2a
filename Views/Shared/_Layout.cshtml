@@ -11,24 +11,27 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light">
+            <div class="main-part-site" style="padding-left: 15px;">
+                <img class="img-main-site" src="~/image/pizza.png" height="60px" width="60px">
+            </div>
+
             <div class="container-fluid">
-                <div class="group">
-                    <img src="~/image/pizzaMain.png" alt="">
-                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"> Pizzaria Ferrari</a>
-                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+                         <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Pizzaria Ferrari</a>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cadastrar</a>
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <a class="nav-link text-white" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cadastrar</a>
+                            <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
                                 <li><a class="dropdown-item" asp-controller="Produto" asp-action="Index">Produto</a></li>
                                 <li><a class="dropdown-item" asp-controller="Category" asp-action="Index">Categoria</a></li>
                             </ul>
@@ -38,15 +41,21 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container" style="background-color: #f4d58d;">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer bg-white">
-            <p id="name">Pizzaria Ferrari</p>
-            <p id="email">pizzariaferrari2023@gmail.com</p>
+    <footer class="footer" style="color: #fff;">
+        @* <div class="redesSociais">
+            <img src="~/image/instagram.png" width="20px" height="20px">
+            <p class="text-white">fernandadca_</p>
+        </div>
+        <div class="redesSociais">
+            <img src="~/image/instagram.png" width="20px" height="20px">
+            <p class="text-white">rah_cecilio</p>
+        </div> *@
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

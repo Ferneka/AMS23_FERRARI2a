@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "O02lqoOgVLxHo/8AGZvoKZJ4tmwrAMG03XfvcM8TZFI=",
+  "Hash": "+sd+lbCOGMCWZHr+96uyvQQvEWzEvgmfkiQDM4KHFtA=",
   "Source": "AMS23_Carousel",
   "BasePath": "_content/AMS23_Carousel",
   "Mode": "Default",
@@ -102,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\pizza1.jpg",
+      "Identity": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\instagram.png",
       "SourceId": "AMS23_Carousel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\",
       "BasePath": "_content/AMS23_Carousel",
-      "RelativePath": "image/pizza1.jpg",
+      "RelativePath": "image/instagram.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\pizza1.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\instagram.png"
     },
     {
-      "Identity": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\pizza2.jpg",
+      "Identity": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\p1PizzariaFerrari.png",
       "SourceId": "AMS23_Carousel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\",
       "BasePath": "_content/AMS23_Carousel",
-      "RelativePath": "image/pizza2.jpg",
+      "RelativePath": "image/p1PizzariaFerrari.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\pizza2.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\p1PizzariaFerrari.png"
     },
     {
-      "Identity": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\pizza3.jpg",
+      "Identity": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\p2PizzariaFerrari.png",
       "SourceId": "AMS23_Carousel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\",
       "BasePath": "_content/AMS23_Carousel",
-      "RelativePath": "image/pizza3.jpg",
+      "RelativePath": "image/p2PizzariaFerrari.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +150,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\pizza3.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\p2PizzariaFerrari.png"
+    },
+    {
+      "Identity": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\p3PizzariaFerrari.png",
+      "SourceId": "AMS23_Carousel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\",
+      "BasePath": "_content/AMS23_Carousel",
+      "RelativePath": "image/p3PizzariaFerrari.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\p3PizzariaFerrari.png"
+    },
+    {
+      "Identity": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\pizza.png",
+      "SourceId": "AMS23_Carousel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\",
+      "BasePath": "_content/AMS23_Carousel",
+      "RelativePath": "image/pizza.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\pizza.png"
     },
     {
       "Identity": "C:\\Users\\Marciana\\Desktop\\AMS23_Carousel\\wwwroot\\image\\pizzaIcon.png",
