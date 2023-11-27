@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 html {
   font-size: 14px;
 }
@@ -39,13 +40,25 @@ body {
   background-color: #f4d58d;
 }
 nav{
-  background-color: #9d0207;
+  background-color: #a11217;
 }
 
 .carousel-item img{
-  width: 1300px;
-  height: 700px;
+  width: 950px;
+  height: 600px;
 }
+.carousel-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 5px;
+}
+.a-nav a{
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .main{
   display: flex;
   justify-content: space-between;
@@ -155,7 +168,7 @@ nav{
   left:256px;
 }
 .main-produto{
-  background-color: var(--yellow-color);
+  background-color: #f7e0ac85;
   width: 600px;
   height:400px;
   margin: auto;

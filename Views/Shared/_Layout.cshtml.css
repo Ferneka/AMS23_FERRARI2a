@@ -17,8 +17,6 @@ a.navbar-brand {
  width: 20px;
 }
 
-
-
 a {
   color: #0077cc;
 }
@@ -51,6 +49,5 @@ button.accept-policy {
   display: flex;
 }
 .redesSociais{
-  display: flex;
-  
+  display: flex;  
 }
