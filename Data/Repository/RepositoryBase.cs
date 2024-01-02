@@ -41,7 +41,7 @@ namespace AMS23_Carousel.Data.Repository
 
         public void Delete(TEntity entity)
         {
-           _entity.Remove(entity);
+            _entity.Remove(entity);
         }
     }
 }
